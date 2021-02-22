@@ -1,0 +1,15 @@
+<div class="container">
+    <table class="table mt-5" >
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>EMAIL</th>
+        </tr>
+        <tr *ngFor="let p of products">
+            <td>{{p.id}}</td>
+            <td>{{p.name}}</td>
+            <td>{{p.email}}</td>
+        </tr>
+        
+        </table>
+</div>
